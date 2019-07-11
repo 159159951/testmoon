@@ -1,0 +1,59 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
+
+android {
+    compileSdkVersion 29
+    defaultConfig {
+        minSdkVersion 22
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        externalNativeBuild {
+            cmake {
+                cppFlags "-frtti -fexceptions"
+                abiFilters 'x86', 'x86_64', 'armeabi-v7a', 'arm64-v8a'
+            }
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['../openCV410/native/libs']
+            kotlin.srcDirs += 'src/main/kotlin'
+            java.srcDirs += 'src/main/kotlin'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+            version "3.10.2"
+        }
+    }
+    packagingOptions {
+        pickFirst('**/libopencv_java4.so')
+    }
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+//    implementation 'com.quickbirdstudios:opencv:4.1.0'
+
+    implementation project(path: ':openCV410')
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    implementation 'androidx.core:core-ktx:1.0.2'
+    implementation 'com.github.thomasnield:kotlin-statistics:-SNAPSHOT'
+    implementation 'com.otaliastudios:cameraview:2.0.0-beta05'
+    implementation 'androidx.exifinterface:exifinterface:1.0.0'
+
+    implementation 'androidx.appcompat:appcompat:1.1.0-beta01'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.code.gson:gson:2.8.5'
+}
