@@ -19,7 +19,7 @@ android {
     }
     sourceSets {
         main {
-            jniLibs.srcDirs = ['../openCV410/native/libs', '../openCV410/native/jni/include']
+            jniLibs.srcDirs = ['../openCV410/native/libs']
             kotlin.srcDirs += 'src/main/kotlin'
             java.srcDirs += 'src/main/kotlin'
         }
