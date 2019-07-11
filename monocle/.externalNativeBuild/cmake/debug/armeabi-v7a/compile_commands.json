@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/Users/huy/Temp/testmoon/monocle/.externalNativeBuild/cmake/debug/armeabi-v7a",
-  "command": "/Users/huy/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=armv7-none-linux-androideabi22 --gcc-toolchain=/Users/huy/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/huy/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dmonocle_lib_EXPORTS -I/Users/huy/Temp/testmoon/monocle/src/main/cpp/../../../../openCV410/native/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/monocle-lib.dir/monocle-lib.cpp.o -c /Users/huy/Temp/testmoon/monocle/src/main/cpp/monocle-lib.cpp",
-  "file": "/Users/huy/Temp/testmoon/monocle/src/main/cpp/monocle-lib.cpp"
-}
-]

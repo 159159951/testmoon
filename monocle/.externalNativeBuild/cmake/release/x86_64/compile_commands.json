@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/Users/huy/Temp/testmoon/monocle/.externalNativeBuild/cmake/release/x86_64",
-  "command": "/Users/huy/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android22 --gcc-toolchain=/Users/huy/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/huy/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dmonocle_lib_EXPORTS -I/Users/huy/Temp/testmoon/monocle/src/main/cpp/../../../../openCV410/native/jni/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O2 -DNDEBUG  -fPIC   -o CMakeFiles/monocle-lib.dir/monocle-lib.cpp.o -c /Users/huy/Temp/testmoon/monocle/src/main/cpp/monocle-lib.cpp",
-  "file": "/Users/huy/Temp/testmoon/monocle/src/main/cpp/monocle-lib.cpp"
-}
-]
