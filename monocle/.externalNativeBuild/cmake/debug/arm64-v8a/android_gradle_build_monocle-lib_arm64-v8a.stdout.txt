@@ -1,0 +1,2 @@
+[1/2] Building CXX object CMakeFiles/monocle-lib.dir/monocle-lib.cpp.o
+[2/2] Linking CXX shared library /Users/huy/Temp/testmoon/monocle/build/intermediates/cmake/debug/obj/arm64-v8a/libmonocle-lib.so

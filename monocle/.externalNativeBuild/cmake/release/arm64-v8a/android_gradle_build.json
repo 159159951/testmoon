@@ -1,0 +1,41 @@
+{
+  "stringTable": {
+    "0": "/Users/huy/Temp/testmoon/monocle/.externalNativeBuild/cmake/release/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android22 --gcc-toolchain=/Users/huy/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/huy/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dmonocle_lib_EXPORTS -I/Users/huy/Temp/testmoon/monocle/src/main/cpp/../../../../openCV410/native/jni/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -frtti -fexceptions -O2 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "/Users/huy/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/huy/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/huy/Temp/testmoon/monocle/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/huy/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build \"/Users/huy/Temp/testmoon/monocle/.externalNativeBuild/cmake/release/arm64-v8a\" --target clean"
+  ],
+  "libraries": {
+    "monocle-lib-Release-arm64-v8a": {
+      "buildCommand": "/Users/huy/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build \"/Users/huy/Temp/testmoon/monocle/.externalNativeBuild/cmake/release/arm64-v8a\" --target monocle-lib",
+      "buildType": "release",
+      "toolchain": "1756615847",
+      "abi": "arm64-v8a",
+      "artifactName": "monocle-lib",
+      "files": [
+        {
+          "src": "/Users/huy/Temp/testmoon/monocle/src/main/cpp/monocle-lib.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/huy/Temp/testmoon/monocle/build/intermediates/cmake/release/obj/arm64-v8a/libmonocle-lib.so"
+    }
+  },
+  "toolchains": {
+    "1756615847": {
+      "cppCompilerExecutable": "/Users/huy/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,0 +1,3 @@
+/Users/huy/Temp/testmoon/monocle/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/huy/Temp/testmoon/monocle/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/edit_cache.dir
+/Users/huy/Temp/testmoon/monocle/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/monocle-lib.dir
