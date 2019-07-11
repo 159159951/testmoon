@@ -71,10 +71,10 @@ build CMakeFiles/monocle-lib.dir/monocle-lib.cpp.o: CXX_COMPILER__monocle-lib /U
 #############################################
 # Link the shared library /Users/huy/Temp/testmoon/monocle/build/intermediates/cmake/debug/obj/armeabi-v7a/libmonocle-lib.so
 
-build /Users/huy/Temp/testmoon/monocle/build/intermediates/cmake/debug/obj/armeabi-v7a/libmonocle-lib.so: CXX_SHARED_LIBRARY_LINKER__monocle-lib CMakeFiles/monocle-lib.dir/monocle-lib.cpp.o | /../../../openCV410/native/libs/armeabi-v7a/libopencv_java4.so /Users/huy/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/22/liblog.so
+build /Users/huy/Temp/testmoon/monocle/build/intermediates/cmake/debug/obj/armeabi-v7a/libmonocle-lib.so: CXX_SHARED_LIBRARY_LINKER__monocle-lib CMakeFiles/monocle-lib.dir/monocle-lib.cpp.o | /Users/huy/Temp/testmoon/monocle/src/main/cpp/native/libs/armeabi-v7a/libopencv_java4.so /Users/huy/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/22/liblog.so
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info
   LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack
-  LINK_LIBRARIES = /../../../openCV410/native/libs/armeabi-v7a/libopencv_java4.so -llog -latomic -lm
+  LINK_LIBRARIES = /Users/huy/Temp/testmoon/monocle/src/main/cpp/native/libs/armeabi-v7a/libopencv_java4.so -llog -latomic -lm
   OBJECT_DIR = CMakeFiles/monocle-lib.dir
   POST_BUILD = :
   PRE_LINK = :
